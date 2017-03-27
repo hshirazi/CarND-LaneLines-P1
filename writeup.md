@@ -34,6 +34,4 @@ Another shorcoming is that I am ignoring the width of the lane lines.
 
 * For second shortcoming, we can find two left lines and use fillPoly to fill red between two lines. Similar thing can be done for two right lines. To do this, for top points of left lines, we find the two largest x values among all left lines instead of just finding the largest x value. Similar thing can be done for other endpoints.
 
-* A major improvement can be done as follows:
-
-Here we are processign each image in isolation of other images. We can figure out the mean slope of the previous images, and then force our current image lines slope not to diverge from it too much.
+* A major improvement can be done as follows: Here we are processign each image in isolation of other images. We can figure out the mean slope of the previous images, and then force our current image lines slope not to diverge from it too much.
